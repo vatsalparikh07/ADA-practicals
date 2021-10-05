@@ -66,12 +66,5 @@ int MakingChange(int d[], int n, int N)
         }
     }
     
-    printf("\nThe table for making change problem in dynamic programming is:\n");
-    for(i=0; i<=n; i++){
-        for(j=0; j<=N; j++){
-            printf(" %d", c[i][j]);
-        }
-        printf("\n");
-    }
     return c[n][N];
 }
